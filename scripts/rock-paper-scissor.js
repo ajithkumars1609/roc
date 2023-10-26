@@ -59,7 +59,7 @@ function playGame(playMove) {
   //check win or tie loos in score mark //
   localStorage.setItem("score", JSON.stringify(score));
   const moveElement = document.querySelector(".js-display-move");
-  moveElement.innerHTML = `You <img src= "/images/${playMove}-emoji.png"/ class ="move-icon">  <img src= "/images/${computerMove}-emoji.png"/ class ="move-icon"> Computer`;
+  moveElement.innerHTML = `You <img src= "images/${playMove}-emoji.png"/ class ="move-icon">  <img src= "images/${computerMove}-emoji.png"/ class ="move-icon"> Computer`;
   const resultElement = document.querySelector(".js-display-result");
   resultElement.innerHTML = `${result}`;
   const scoreElement = document.querySelector(".js-display-score");
