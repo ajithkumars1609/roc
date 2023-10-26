@@ -37,12 +37,14 @@ body {
   border: none;
   padding: 10px 15px;
   font-size: 15px;
+  cursor: pointer;
 }
 .auto-play-button {
   background-color: white;
   border: none;
   padding: 10px 15px;
   font-size: 15px;
+  cursor: pointer;
 }
 .reset-confirm {
   margin-top: 40px;
